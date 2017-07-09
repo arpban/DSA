@@ -1,0 +1,14 @@
+B TREES
+
+we use b trees when the complete data cannot be stored on the main memory and we need to access secondary memory in the program.
+Accessing secondary memory is much more expensive than main memory. therefore we try to reduce the number of disk access as much as possible.
+
+A b tree of order M is an M-ary tree with following properties:
+1. The data items are stored at leaves.
+2. The nonleaf nodes store up to M − 1 keys to guide the searching; key i represents the
+smallest key in subtree i + 1.
+3. The root is either a leaf or has between two and M children.
+4. All nonleaf nodes (except the root) have between M/2 and M children.
+5. All leaves are at the same depth and have between L/2 and L data items, for some L
+
+
